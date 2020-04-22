@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header_text{
+	font-family: 'Slackey', cursive;
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+.card{
+	background-color: #43b6e6 !important;
+	width: 85%;
+	height:85vh;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    margin-top:30px;
+    margin-bottom:10px;
+    padding: 25px 25px;
+    display: inline-block;
+    margin-left: 85px;
+}
+
+.card:hover {
+  box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.preview{
+	background-color: white;
+}
+
+.result{
+	font-family: 'Slackey', cursive;
+}
+
+.wpm_r, .time_r{
+	font-size: 25px;
+	font-weight: lighter;
+}
+.quote_info{
+	font-size: 10px;
+	font-weight: bold;
+	font-style: italic;
+}
+
